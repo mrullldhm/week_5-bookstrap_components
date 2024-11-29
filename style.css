@@ -1,0 +1,23 @@
+body {
+    background-image: url('images/background.jpg');
+    background-color: #3e3e3e14;
+    background-size: 100vw 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+}
+
+p {
+    margin: 8px;
+  }
+ 
+@media print {
+  nav, #contact, #download, footer {
+    display: none;
+  }
+  body {
+    font-size: 12px;
+  }
+}
